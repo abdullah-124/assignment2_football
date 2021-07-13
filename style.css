@@ -1,0 +1,171 @@
+/* gogle font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/*------------------------------------ 
+    common class and utilits 
+------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.half_width{
+    width: 50%;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    border: none;
+    outline: noen;
+}
+
+/* --------------------------
+    header part  
+---------------------------------*/
+
+header{
+    background-color: #2D25A0;
+    padding: 50px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menuButton{
+    display: none;
+    background-color: #E02C6D;
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 8px 10px;
+}
+nav ul li:hover{
+    background-color: #E02C6D;
+    transition: .5s ease;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 20px;
+    font-weight: 700;
+}
+.image img{
+    width: 560px;
+    height: 440px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+.header .text{
+    margin-top: 50px;
+}
+.text h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+/* -----------------------------
+        player section
+-----------------------------------*/
+.container{
+    padding: 70px 150px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
+    /* background-color: #ccc; */
+    justify-content: center;
+}
+.player{
+    
+    padding: 10px; 
+    box-shadow: -2px -2px 18px 0px #b3a3a3;
+    background-color: #ffff;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    margin: 10px
+}
+.player h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px
+} 
+.player p{
+    margin: 10px;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/* =-------------------------
+        copa_america section 
+----------------------- */
+.copa_america{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+}
+.matchImg img{
+    width: 90%;
+}
+.artical h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.artical p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 20px 0;
+}
+
+/*---------------------
+     footer 
+------------------------ */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 50%;
+}
+.icons{
+    display: flex;
+    padding: 20px 0px;
+}
+.icon{
+    color: grey;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #ccc;;
+}
+footer p{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
