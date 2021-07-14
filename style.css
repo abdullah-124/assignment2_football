@@ -40,7 +40,7 @@ header:hover{
     transition: 2s;
 }
 header:hover .text h1{
-    color: black;
+    color: #ffffff;
     
 } 
 .image img{
@@ -58,7 +58,7 @@ header:hover .text h1{
 .text h1{
     font-size: 64px;
     font-weight: 700;
-    color: #ffff;
+    color: #000;
     transition: 2s;
 }
 
